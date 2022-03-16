@@ -21,9 +21,11 @@ Create a an Availability Group and Dynamic Network Name listener
 - Windows Server Failover Cluster containing the two SQL nodes wtih no shared storage
 - Enable Always On Availability Groups in SQL Server Configuration Manager for both instances
 - Grant the following permissions to NT AUTHORITY\SYSTEM
-```GRANT ALTER ANY AVAILABILITY GROUP TO [NT AUTHORITY\SYSTEM]
+```
+GRANT ALTER ANY AVAILABILITY GROUP TO [NT AUTHORITY\SYSTEM]
 GO
 GRANT CONNECT SQL TO [NT AUTHORITY\SYSTEM]
 GO
 GRANT VIEW SERVER STATE TO [NT AUTHORITY\SYSTEM]
-GO```
+GO
+```

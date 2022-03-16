@@ -11,7 +11,7 @@ Sets up log shipping for a database
 - Read/write permissions to the backup share for the primary Agent Service Account
 - Read permissions to the backup share for the secondary Agent Service Account
 - Read/write permissions to the copy destination for the secondary Agent Service Account
-- DBATools PowerShell module - run ```Install-Module DBATools``` to install the module
+- DBATools PowerShell module - run ```Install-Module DBATools``` from an Adminstrator PowerShell window to install the module
 
 ## ConfigureAg.ipynb
 Create a an Availability Group and Dynamic Network Name listener
